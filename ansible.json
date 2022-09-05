@@ -1,22 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":timezone(Asia/Tokyo)",
-    "schedule:weekends",
-    "group:all"
+    "github>poppen/renovate-config:automerge"
   ],
-  "ignorePresets": [":prHourlyLimit2"],
-  "automerge": true,
-  "major": {
-    "stabilityDays": 7
-  },
-  "minor": {
-    "stabilityDays": 5
-  },
-  "patch": {
-    "stabilityDays": 3
-  },
   "packageRules": [
     {
       "matchPackageNames": ["Cerberus"],
