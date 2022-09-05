@@ -7,5 +7,14 @@
     "group:all"
   ],
   "ignorePresets": [":prHourlyLimit2"],
-  "automerge": true
+  "automerge": true,
+  "major": {
+    "stabilityDays": 7
+  },
+  "minor": {
+    "stabilityDays": 4
+  },
+  "patch": {
+    "stabilityDays": 2
+  }
 }
